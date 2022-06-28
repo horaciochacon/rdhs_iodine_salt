@@ -6,53 +6,43 @@ library(sjlabelled)
 source("src/1_get_datasets.R")
 
 # Specify variables to include in the analysis
-vars <- c("v001", "v022", "v024", "v005", "v025", "v190", "m15" , "bidx",
-          "v021","v106")
+vars <- c("hv001", "hv022", "hv024", "hv005", "hv025", "hv270",
+          "hv021","hv106_01", "hv101_01", "hv234a", "hv234" )
 
 # Get variables from prior variable specification vector
-variables <- search_variables(datasets$FileName, variables = vars)  %>% 
-  bind_dhs_var(var = "v022", desc = "Sample strata for sampling errors",
-               data = "ALBR71FL", id = "AL2017DHS") %>% 
-  bind_dhs_var(var = "v106", desc = "Highest educational level",
-               data = "YEBR61FL", id = "YE2013DHS") %>% 
-  bind_dhs_var(var = "v022", desc = "Sample strata for sampling errors",
-               data = "MBBR53FL", id = "MB2005DHS")
-
+variables <- search_variables(datasets$FileName, variables = vars) 
   
 variables_spread <- variables %>% 
   select(dataset_filename,variable) %>% 
   spread(variable, variable)
 
+countries_complete <- variables_spread %>% 
+  filter(!is.na(hv234a)) %>% pull(dataset_filename)
+
 # We generate the extract list with all datasets
 extract <- extract_dhs(questions = variables, add_geo = FALSE)
 
 # We append all procesed datasets
-final <- rbind_labelled(extract)
+final <- rbind_labelled(extract[countries_complete])
 
 # We mutate the outcome variable and filter the dataset
 final <- final %>% 
   as_tibble() %>% 
-  mutate(parto_institucional = case_when(str_sub(m15,1,1) == "1" ~ 0,
-                                         str_sub(m15,1,1) == "2" ~ 1,
-                                         str_sub(m15,1,1) == "3" ~ 1,
-                                         str_sub(m15,1,1) == "4" ~ 1,
-                                         str_sub(m15,1,1) == "9" ~ 0,
-                                         is.na(m15) ~ NA_real_),
-         parto_domiciliario = case_when(str_sub(m15,1,1) == "1" ~ 1,
-                                         str_sub(m15,1,1) == "2" ~ 0,
-                                         str_sub(m15,1,1) == "3" ~ 0,
-                                         str_sub(m15,1,1) == "4" ~ 0,
-                                         str_sub(m15,1,1) == "9" ~ 0,
-                                         is.na(m15) ~ NA_real_),
-         DHS_CountryCode = str_sub(SurveyId,1,2),
-         v005 = v005/1000000) %>%
-  filter(!is.na(parto_institucional)) %>% 
+  filter(hv234a %in% c(0,1), hv101_01 == 1) %>% 
+  mutate(
+    iodine = case_when(
+      hv234a == 1 ~ 1,
+      hv234a == 0 ~ 0
+    ),
+    DHS_CountryCode = str_sub(SurveyId,1,2),
+    hv005 = hv005/1000000
+    ) %>%
   left_join(surveys[,c(1:4)],
             by = "DHS_CountryCode") %>% 
   left_join(country_list[,c(2:3)], by = "CountryName")
 
 write_rds(final,"data/final.rds")
-
+ 
 
 
 

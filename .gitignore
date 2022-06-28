@@ -1,2 +1,16 @@
 
 .DS_Store
+.Rproj.user
+*.rds
+*.ZIP_rds_FALSE
+data/db/config/compress
+data/db/config/hash_algorithm
+data/db/config/mangle_key
+data/db/config/mangle_key_pad
+data/db/config/version
+data/db/keys/api_calls/305e9cc7e62ad7b874a5d48df64fcabb
+data/db/keys/api_calls/33c7d5d446f1e1e22713eebd56ff8d24
+data/db/keys/api_calls/3beb9844e56e118393b5bcbd02637d82
+data/db/keys/api_calls/51f16ba857c288afcd32e745f27ffcec
+data/db/keys/api_calls/59d93643c55c2f643d948122884cc445
+data/db/keys/available_datasets_calls/c4246eeba068a3f5232e16bb41a1998d

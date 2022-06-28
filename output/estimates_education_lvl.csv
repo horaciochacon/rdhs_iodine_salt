@@ -1,0 +1,97 @@
+﻿"RegionWorldBank","SubregionName","CountryName","SurveyYear","Education","prop_iod","prop_iod_low","prop_iod_upp"
+"East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","no education, preschool",1,1,1
+"East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","primary",1,1,1
+"East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","secondary",1,1,1
+"East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","higher",0.9999999999999999,0.9999999999999999,0.9999999999999999
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","no education, preschool",0.7779649075009921,0.7411794575903349,0.8147503574116494
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","primary",0.8065544405756242,0.7775352654858244,0.835573615665424
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","secondary",0.8648403593622752,0.840545450390043,0.8891352683345074
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","higher",0.9446753417523509,0.9189582511199376,0.9703924323847642
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","no education, preschool",0.8140008786947994,0.7842108469063772,0.8437909104832216
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","primary",0.8402594738928895,0.8137760833965105,0.8667428643892684
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","secondary",0.8827354918371674,0.8614557257915301,0.9040152578828047
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","higher",0.912887189067264,0.8754855624290944,0.9502888157054336
+"Europe & Central Asia","Central Asia","Tajikistan","2017","no education, preschool",0.8575416256090033,0.7598432927405432,0.9552399584774633
+"Europe & Central Asia","Central Asia","Tajikistan","2017","primary",0.8867033929143152,0.8392741460869566,0.9341326397416738
+"Europe & Central Asia","Central Asia","Tajikistan","2017","secondary",0.9137556769660219,0.9002044983773712,0.9273068555546726
+"Europe & Central Asia","Central Asia","Tajikistan","2017","higher",0.9277125933923894,0.9121030755045137,0.9433221112802651
+"Europe & Central Asia","Southern Europe","Albania","2017","no education, preschool",0.5956967050116537,0.4820114151499902,0.7093819948733172
+"Europe & Central Asia","Southern Europe","Albania","2017","primary",0.633888368613465,0.6034534054351071,0.6643233317918229
+"Europe & Central Asia","Southern Europe","Albania","2017","secondary",0.6685909410216729,0.6400649712300546,0.6971169108132913
+"Europe & Central Asia","Southern Europe","Albania","2017","higher",0.6608666475637174,0.6079451961087377,0.7137880990186971
+"Latin America & Caribbean","Caribbean","Haiti","2016","no education, preschool",0.07792831613578967,0.061987824887399484,0.09386880738417985
+"Latin America & Caribbean","Caribbean","Haiti","2016","primary",0.06632754410288233,0.054484370682513814,0.07817071752325085
+"Latin America & Caribbean","Caribbean","Haiti","2016","secondary",0.08517049740348642,0.06804401628775456,0.10229697851921829
+"Latin America & Caribbean","Caribbean","Haiti","2016","higher",0.16160375177099717,0.10537314787682053,0.2178343556651738
+"South Asia","South Asia","Afghanistan","2015","no education, preschool",0.5116454095683582,0.4737956850459124,0.5494951340908041
+"South Asia","South Asia","Afghanistan","2015","primary",0.5772144262917772,0.5317512317402071,0.6226776208433473
+"South Asia","South Asia","Afghanistan","2015","secondary",0.6809930151944114,0.6442410229824412,0.7177450074063815
+"South Asia","South Asia","Afghanistan","2015","higher",0.808426073808168,0.7673622311402222,0.8494899164761138
+"South Asia","South Asia","Nepal","2016","no education, preschool",0.9273119893655766,0.9119662226826128,0.9426577560485403
+"South Asia","South Asia","Nepal","2016","primary",0.9363771221898128,0.9205601574128985,0.9521940869667271
+"South Asia","South Asia","Nepal","2016","secondary",0.9743663776116206,0.9668013963145266,0.9819313589087146
+"South Asia","South Asia","Nepal","2016","higher",0.9892145036776644,0.9823798960521062,0.9960491113032226
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","no education, preschool",0.9912010477492026,0.988014829247484,0.9943872662509212
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","primary",0.9912065789924739,0.9881412893702619,0.9942718686146859
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","secondary",0.99503755988082,0.9910314887997588,0.9990436309618812
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","higher",0.9910696049699096,0.9790171646105101,1.003122045329309
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","no education, preschool",0.873494191071073,0.8544362448039886,0.8925521373381573
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","primary",0.888430822071975,0.8726402985452432,0.9042213455987068
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","secondary",0.922948738018285,0.9082634712255034,0.9376340048110666
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","higher",0.94193227784919,0.9219891342728131,0.9618754214255668
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","no education, preschool",0.7185764039684219,0.6840154250433793,0.7531373828934645
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","primary",0.8041540339917568,0.7806539898914214,0.8276540780920921
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","secondary",0.9184594512292579,0.9019933336718988,0.9349255687866169
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","higher",0.9663674482726349,0.9405504196751858,0.9921844768700839
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","no education, preschool",0.9896938817593449,0.985412006920592,0.9939757565980978
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","primary",0.9944277690733563,0.9927570407864315,0.9960984973602811
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","secondary",0.9943318875154812,0.9914594449014138,0.9972043301295486
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","higher",0.9970839996183816,0.9942931124008597,0.9998748868359034
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","no education, preschool",0.6309908785497595,0.5897524403581097,0.6722293167414094
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","primary",0.6525457438689533,0.6209938733964516,0.6840976143414549
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","secondary",0.5863039353072488,0.5454023436923852,0.6272055269221124
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","higher",0.6292427306305641,0.5776976583111999,0.6807878029499284
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","no education, preschool",0.9564810892838306,0.9349837916889832,0.977978386878678
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","primary",0.9483242656659833,0.9381654630434589,0.9584830682885076
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","secondary",0.9492359626289237,0.9402707135680222,0.9582012116898253
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","higher",0.9494121763562211,0.9311363820775075,0.9676879706349347
+"Sub-Saharan Africa","Middle Africa","Angola","2015","no education, preschool",0.816984948263819,0.7875344553446963,0.8464354411829416
+"Sub-Saharan Africa","Middle Africa","Angola","2015","primary",0.8772347928453733,0.8556817702589922,0.8987878154317545
+"Sub-Saharan Africa","Middle Africa","Angola","2015","secondary",0.9458404895322823,0.9341561910520367,0.9575247880125278
+"Sub-Saharan Africa","Middle Africa","Angola","2015","higher",0.9719498125805021,0.9557935838949473,0.9881060412660568
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","no education, preschool",0.944130291590379,0.9163813290202243,0.9718792541605337
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","primary",0.9747357773151968,0.9580409506467098,0.9914306039836838
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","secondary",0.9883883665176194,0.9821467339478809,0.9946299990873579
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","higher",0.9701789359370674,0.9450678370522763,0.9952900348218585
+"Sub-Saharan Africa","Western Africa","Benin","2017","no education, preschool",0.9076042072634424,0.8967587222957434,0.9184496922311414
+"Sub-Saharan Africa","Western Africa","Benin","2017","primary",0.8811206618354663,0.8633250103324384,0.8989163133384943
+"Sub-Saharan Africa","Western Africa","Benin","2017","secondary",0.890074087363875,0.8739682069364817,0.9061799677912684
+"Sub-Saharan Africa","Western Africa","Benin","2017","higher",0.877496265161546,0.8466480712665695,0.9083444590565225
+"Sub-Saharan Africa","Western Africa","Gambia","2019","no education, preschool",0.7559752787043619,0.720474982415822,0.7914755749929018
+"Sub-Saharan Africa","Western Africa","Gambia","2019","primary",0.7516312480933586,0.6935980632567965,0.8096644329299206
+"Sub-Saharan Africa","Western Africa","Gambia","2019","secondary",0.8021657916489744,0.7681165517543169,0.8362150315436319
+"Sub-Saharan Africa","Western Africa","Gambia","2019","higher",0.7802126876634431,0.7274665167297713,0.8329588585971149
+"Sub-Saharan Africa","Western Africa","Guinea","2018","no education, preschool",0.5645812742622248,0.5198975599773147,0.609264988547135
+"Sub-Saharan Africa","Western Africa","Guinea","2018","primary",0.5965587685889706,0.5381590835708607,0.6549584536070805
+"Sub-Saharan Africa","Western Africa","Guinea","2018","secondary",0.5137359950165022,0.4598056273298673,0.5676663627031372
+"Sub-Saharan Africa","Western Africa","Guinea","2018","higher",0.4673468105658229,0.3954249883312313,0.5392686328004145
+"Sub-Saharan Africa","Western Africa","Liberia","2019","no education, preschool",0.980428635955722,0.9733002463266461,0.987557025584798
+"Sub-Saharan Africa","Western Africa","Liberia","2019","primary",0.9834615744127523,0.9745657451973347,0.9923574036281698
+"Sub-Saharan Africa","Western Africa","Liberia","2019","secondary",0.98665524819182,0.9798087131375257,0.9935017832461144
+"Sub-Saharan Africa","Western Africa","Liberia","2019","higher",0.9911244514637326,0.9800299764830845,1.0022189264443808
+"Sub-Saharan Africa","Western Africa","Mali","2018","no education, preschool",0.8894297157707982,0.86302830310714,0.9158311284344565
+"Sub-Saharan Africa","Western Africa","Mali","2018","primary",0.8888596206842354,0.8591727689865849,0.9185464723818859
+"Sub-Saharan Africa","Western Africa","Mali","2018","secondary",0.9121143069004529,0.8817527753802619,0.942475838420644
+"Sub-Saharan Africa","Western Africa","Mali","2018","higher",0.9229223248160043,0.8858525330935789,0.9599921165384298
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","no education, preschool",0.9466382993590751,0.934907811145452,0.9583687875726982
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","primary",0.98332857147364094,0.9783778747472888,0.9882792681999931
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","secondary",0.9788490706436551,0.9733443246280373,0.9843538166592729
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","higher",0.9837500384804563,0.9762249538217946,0.9912751231391179
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","no education, preschool",0.8758789610530847,0.8549791453398107,0.8967787767663588
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","primary",0.9161442687144726,0.8950792058459418,0.9372093315830035
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","secondary",0.9209170982641481,0.9012511315927326,0.9405830649355637
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","higher",0.9395100986786663,0.9152219786768582,0.9637982186804744
+NA,"Western Africa","Mauritania","2020","no education, preschool",0.2060731667713567,0.19050234960950657,0.22164398393320683
+NA,"Western Africa","Mauritania","2020","primary",0.20616795160577125,0.18354891791765418,0.22878698529388833
+NA,"Western Africa","Mauritania","2020","secondary",0.25328570756500496,0.21810224395582978,0.28846917117418014
+NA,"Western Africa","Mauritania","2020","higher",0.2993409814395149,0.23757242482372762,0.3611095380553021

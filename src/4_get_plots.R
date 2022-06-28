@@ -13,9 +13,9 @@ country_estimates <- read_csv("output/estimates_countries.csv")
 # Data Cleaning -----------------------------------------------------------
 
 country_estimates <- country_estimates %>%
-  arrange(prop_dom) %>%
+  arrange(desc(prop_iod)) %>%
   mutate(CountryName = paste0(CountryName, " (", SurveyYear, ")")) %>%
-  select(CountryName, prop_avg = prop_dom)
+  select(CountryName, prop_avg = prop_iod)
 
 
 area <- area %>%

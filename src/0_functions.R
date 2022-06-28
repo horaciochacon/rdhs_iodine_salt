@@ -40,14 +40,14 @@ library(scales)
 plot_dumbbell <- function(data, var, var_label, legend_label){
   ggplot(data) +
     geom_line(
-      aes(x = CountryName, y = prop_dom, group = CountryName),
+      aes(x = CountryName, y = prop_iod, group = CountryName),
       color = "gray20",
       size = .25
     ) +
     geom_point(
       aes(
         x = CountryName,
-        y = prop_dom, 
+        y = prop_iod, 
         group = .data[[var]],
         shape = var_label),
       color = "black",
@@ -56,7 +56,7 @@ plot_dumbbell <- function(data, var, var_label, legend_label){
     geom_point(
       aes(
         x = CountryName,
-        y = prop_dom,
+        y = prop_iod,
         color = .data[[var]],
         group = .data[[var]],
         shape = var_label
