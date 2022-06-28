@@ -74,14 +74,14 @@ plot_dumbbell <- function(data, var, var_label, legend_label){
     scale_y_continuous(labels = percent) +
     scale_shape_manual(values = c(19,18)) +
     theme_bw() +
-    theme(legend.justification = c(1,0), 
-          legend.position = c(0.985, 0.03),
+    theme(legend.justification = c(1,0),
+          legend.position = c(0.6, 0.03),
           legend.box.background = element_rect(color="black", size=0.5),
           legend.box.margin = margin(1, 1, 1, 1)) +
     coord_flip() +
     labs(
       x = "Country (survey year)",
-      y = "Home Delivery Prevalence",
+      y = "Household sal iodine prevalence",
       color = legend_label,
       shape = "Aggregation Level"
     ) +
