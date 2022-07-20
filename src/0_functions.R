@@ -48,44 +48,37 @@ plot_dumbbell <- function(data, var, var_label, legend_label){
       aes(
         x = CountryName,
         y = prop_iod, 
-        group = .data[[var]],
-        shape = var_label),
-      color = "black",
-      size = 4
-    ) +
-    geom_point(
-      aes(
-        x = CountryName,
-        y = prop_iod,
-        color = .data[[var]],
-        group = .data[[var]],
+        fill = .data[[var]],
         shape = var_label
-      ),
-      size = 2.8
+        ),
+      size = 2.5
     ) +
     geom_point(
       aes(x = CountryName,
           y = prop_avg,
           shape = "National Prevalence"),
-      color = "black",
-      size = 2.8
+      fill = "black",
+      size = 2
     ) +
-    scale_color_brewer(palette = "Set1", direction = -1) +
+    scale_fill_brewer(palette = "Set1", direction = -1) +
     scale_y_continuous(labels = percent) +
-    scale_shape_manual(values = c(19,18)) +
+    scale_shape_manual(values = c(21,23)) +
     theme_bw() +
     theme(legend.justification = c(1,0),
-          legend.position = c(0.6, 0.03),
+          legend.position = c(0.65, 0.03),
           legend.box.background = element_rect(color="black", size=0.5),
           legend.box.margin = margin(1, 1, 1, 1)) +
     coord_flip() +
     labs(
       x = "Country (survey year)",
       y = "Household salt iodine prevalence",
-      color = legend_label,
+      fill = legend_label,
       shape = "Aggregation Level"
     ) +
-    guides(shape = guide_legend(order = 1),col = guide_legend(order = 2))
+    guides(
+      shape = guide_legend(order = 1),
+      fill=guide_legend(override.aes=list(shape=21))
+      )
 }
 
 

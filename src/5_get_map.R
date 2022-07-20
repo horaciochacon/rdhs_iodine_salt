@@ -8,7 +8,7 @@ theme_set(theme_bw())
 # Read Data ---------------------------------------------------------------
 
 country_estimates <- read_csv("output/estimates_countries.csv")
-world <- ne_countries(scale = "large", returnclass = "sf") %>%
+world <- ne_countries( returnclass = "sf") %>%
   mutate(
     name = case_when(
       name == "Kyrgyzstan" ~ "Kyrgyz Republic",
@@ -38,13 +38,13 @@ dhs_spatial <- world %>%
 
 dhs_map <- ggplot(dhs_spatial_all) +
   geom_sf(fill = "#eae2b7", alpha = 0.4) +
-  geom_sf(data = dhs_spatial, aes(fill = prop_dom)) +
+  geom_sf(data = dhs_spatial, aes(fill = prop_iod)) +
   scale_fill_distiller(
     palette = "YlOrRd", 
     breaks = 0.25*0:4,
     labels = percent(0.25*0:4),
-    direction = 1, 
-    name = "Home delivery (%)") +
+    direction = -1, 
+    name = "Iodine (%)") +
   coord_sf(xlim = c(-120, 170), ylim = c(-50,55)) +
   theme(
     panel.grid.major = element_line(colour = "transparent"), 
