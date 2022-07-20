@@ -81,7 +81,7 @@ plot_dumbbell <- function(data, var, var_label, legend_label){
     coord_flip() +
     labs(
       x = "Country (survey year)",
-      y = "Household sal iodine prevalence",
+      y = "Household salt iodine prevalence",
       color = legend_label,
       shape = "Aggregation Level"
     ) +

@@ -1,49 +1,83 @@
 ﻿"RegionWorldBank","SubregionName","CountryName","SurveyYear","Residence","prop_iod","prop_iod_low","prop_iod_upp"
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","urban",1,1,1
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","rural",1,1,1
-"East Asia & Pacific","Southeast Asia","Myanmar","2016","urban",0.921428265052447,0.8982813588358944,0.9445751712689996
-"East Asia & Pacific","Southeast Asia","Myanmar","2016","rural",0.7848211760492632,0.7539522704461986,0.8156900816523277
-"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","urban",0.8864443967627915,0.8524174750623529,0.9204713184632302
-"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","rural",0.8325434350522835,0.8047613829012541,0.8603254872033128
-"Europe & Central Asia","Central Asia","Tajikistan","2017","urban",0.9575388977327701,0.9470894133631543,0.9679883821023859
-"Europe & Central Asia","Central Asia","Tajikistan","2017","rural",0.8999187219073048,0.8833915649366185,0.9164458788779911
-"Europe & Central Asia","Southern Europe","Albania","2017","urban",0.6777657236887829,0.6430624950111529,0.7124689523664128
-"Europe & Central Asia","Southern Europe","Albania","2017","rural",0.6048484706353437,0.5663083280948547,0.6433886131758328
-"Latin America & Caribbean","Caribbean","Haiti","2016","urban",0.09738719174426658,0.07469006830263009,0.12008431518590307
-"Latin America & Caribbean","Caribbean","Haiti","2016","rural",0.07108264988083889,0.058835905694104663,0.08332939406757311
-"South Asia","South Asia","Afghanistan","2015","urban",0.8238261100301572,0.7786804273388637,0.8689717927214506
-"South Asia","South Asia","Afghanistan","2015","rural",0.48070042585002987,0.44534826606970107,0.5160525856303587
-"South Asia","South Asia","Nepal","2016","urban",0.9691053705821774,0.9596086844169709,0.9786020567473839
-"South Asia","South Asia","Nepal","2016","rural",0.9175256091453966,0.895671760653664,0.9393794576371292
-"Sub-Saharan Africa","Eastern Africa","Burundi","2016","urban",0.9949798618039521,0.9911932224061253,0.998766501201779
-"Sub-Saharan Africa","Eastern Africa","Burundi","2016","rural",0.9911442729238948,0.9887434465981213,0.9935450992496684
-"Sub-Saharan Africa","Eastern Africa","Malawi","2015","urban",0.9683069245276243,0.956639511177108,0.9799743378781407
-"Sub-Saharan Africa","Eastern Africa","Malawi","2015","rural",0.8823769690381352,0.866292127804239,0.8984618102720314
-"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","urban",0.9356510095300489,0.9157323767784831,0.9555696422816147
-"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","rural",0.7456283401274717,0.717073449238422,0.7741832310165214
-"Sub-Saharan Africa","Eastern Africa","Uganda","2016","urban",0.9963258611469904,0.9940784961919699,0.9985732261020109
-"Sub-Saharan Africa","Eastern Africa","Uganda","2016","rural",0.993194423489844,0.9913579258527038,0.9950309211269842
-"Sub-Saharan Africa","Eastern Africa","Zambia","2018","urban",0.5379809961689255,0.4860413290981357,0.5899206632397153
-"Sub-Saharan Africa","Eastern Africa","Zambia","2018","rural",0.6852585854125434,0.6529867540159998,0.7175304168090869
-"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","urban",0.9441534983092111,0.9330406139210409,0.9552663826973814
-"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","rural",0.9531475940191291,0.9446722904493631,0.9616228975888951
-"Sub-Saharan Africa","Middle Africa","Angola","2015","urban",0.949107143703718,0.9387172843256052,0.9594970030818307
-"Sub-Saharan Africa","Middle Africa","Angola","2015","rural",0.8005807905617763,0.768583534660138,0.8325780464634147
-"Sub-Saharan Africa","Southern Africa","South Africa","2016","urban",0.984941054669293,0.9771771718117205,0.9927049375268656
-"Sub-Saharan Africa","Southern Africa","South Africa","2016","rural",0.9643213596348899,0.9492882145584134,0.9793545047113663
-"Sub-Saharan Africa","Western Africa","Benin","2017","urban",0.8829385644695982,0.8677846277364234,0.898092501202773
-"Sub-Saharan Africa","Western Africa","Benin","2017","rural",0.9059969663182788,0.8923011263545733,0.9196928062819842
-"Sub-Saharan Africa","Western Africa","Gambia","2019","urban",0.814011389550596,0.7786217684750115,0.8494010106261806
-"Sub-Saharan Africa","Western Africa","Gambia","2019","rural",0.6452917764716776,0.584062676729565,0.7065208762137901
-"Sub-Saharan Africa","Western Africa","Guinea","2018","urban",0.4477305594014086,0.38347626053504597,0.5119848582677712
-"Sub-Saharan Africa","Western Africa","Guinea","2018","rural",0.6046645654703885,0.5539692280493207,0.6553599028914563
-"Sub-Saharan Africa","Western Africa","Liberia","2019","urban",0.9826331054946598,0.9750856532429775,0.9901805577463421
-"Sub-Saharan Africa","Western Africa","Liberia","2019","rural",0.9869006317107053,0.9823397267417563,0.9914615366796543
-"Sub-Saharan Africa","Western Africa","Mali","2018","urban",0.9026140887174116,0.8581113834666171,0.947116793968206
-"Sub-Saharan Africa","Western Africa","Mali","2018","rural",0.8911143735370408,0.8634226780302291,0.9188060690438525
-"Sub-Saharan Africa","Western Africa","Nigeria","2018","urban",0.9842109887138885,0.9784056259074729,0.990016351520304
-"Sub-Saharan Africa","Western Africa","Nigeria","2018","rural",0.9586848708700231,0.949791955545842,0.9675777861942042
-"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","urban",0.9278382514042872,0.9051746760460134,0.950501826762561
-"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","rural",0.8764527007238508,0.8527621128853373,0.9001432885623644
-NA,"Western Africa","Mauritania","2020","urban",0.25265017465931783,0.23188392819325832,0.27341642112537734
-NA,"Western Africa","Mauritania","2020","rural",0.17959141537434212,0.16252041229944378,0.19666241844924046
+"East Asia & Pacific","Southeast Asia","Cambodia","2014","urban",0.8233930363338444,0.7885830986287248,0.8582029740389641
+"East Asia & Pacific","Southeast Asia","Cambodia","2014","rural",0.6661754804814263,0.6331552984117927,0.6991956625510598
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","urban",0.921428265052447,0.8981959073878335,0.9446606227170605
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","rural",0.7848211760492632,0.7537279934199123,0.8159143586786141
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","urban",0.8864443967627915,0.8523851826887691,0.920503610836814
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","rural",0.8325434350522835,0.8046156920292605,0.8604711780753064
+"Europe & Central Asia","Central Asia","Kyrgyz Republic","2012","urban",0.9750876125027143,0.9667162260852474,0.9834589989201811
+"Europe & Central Asia","Central Asia","Kyrgyz Republic","2012","rural",0.9603033040812442,0.9516821808908843,0.9689244272716041
+"Europe & Central Asia","Central Asia","Tajikistan","2017","urban",0.9575388977327701,0.9470529251780943,0.968024870287446
+"Europe & Central Asia","Central Asia","Tajikistan","2017","rural",0.8999187219073048,0.8833071777086605,0.9165302661059491
+"Europe & Central Asia","Southern Europe","Albania","2017","urban",0.6777657236887829,0.6428422234714283,0.7126892239061374
+"Europe & Central Asia","Southern Europe","Albania","2017","rural",0.6048484706353437,0.566252151343247,0.6434447899274405
+"Latin America & Caribbean","Caribbean","Haiti","2016","urban",0.09738719174426658,0.07469635300135032,0.12007803048718284
+"Latin America & Caribbean","Caribbean","Haiti","2016","rural",0.07108264988083889,0.05883768180533863,0.08332761795633914
+"Middle East & North Africa","North Africa","Egypt","2014","urban",0.9626338685390093,0.9547826493296333,0.9704850877483854
+"Middle East & North Africa","North Africa","Egypt","2014","rural",0.8708108647230866,0.8580312807651238,0.8835904486810493
+"South Asia","South Asia","Afghanistan","2015","urban",0.8238261100301572,0.7784394693399224,0.869212750720392
+"South Asia","South Asia","Afghanistan","2015","rural",0.48070042585002987,0.4437520570459101,0.5176487946541497
+"South Asia","South Asia","Nepal","2016","urban",0.9691053705821774,0.9596017721829545,0.9786089689814003
+"South Asia","South Asia","Nepal","2016","rural",0.9175256091453966,0.8956498113897302,0.939401406901063
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","urban",0.9949798618039521,0.9911958802093827,0.9987638433985216
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","rural",0.9911442729238948,0.9887426902493104,0.9935458555984793
+"Sub-Saharan Africa","Eastern Africa","Comoros","2012","urban",0.9025931271567978,0.8753604474486422,0.9298258068649535
+"Sub-Saharan Africa","Eastern Africa","Comoros","2012","rural",0.9138682184692185,0.8894736582750264,0.9382627786634106
+"Sub-Saharan Africa","Eastern Africa","Kenya","2014","urban",0.9931181069393115,0.9895427507708885,0.9966934631077344
+"Sub-Saharan Africa","Eastern Africa","Kenya","2014","rural",0.9963123041127737,0.9941104925022409,0.9985141157233065
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","urban",0.9683069245276243,0.9566303363639816,0.979983512691267
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","rural",0.8823769690381352,0.8662312870842305,0.89852265099204
+"Sub-Saharan Africa","Eastern Africa","Mozambique","2011","urban",0.5389536470853717,0.5013061843162347,0.5766011098545087
+"Sub-Saharan Africa","Eastern Africa","Mozambique","2011","rural",0.409284172417928,0.37318619328408026,0.4453821515517758
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","urban",0.9356510095300489,0.9156906584416173,0.9556113606184804
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","rural",0.7456283401274717,0.7168402532443932,0.7744164270105502
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","urban",0.9963258611469904,0.9940788721880379,0.9985728501059429
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","rural",0.993194423489844,0.9913523173821106,0.9950365295975774
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","urban",0.5379809961689255,0.4858443902853252,0.5901176020525257
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","rural",0.6852585854125434,0.6528907298376622,0.7176264409874246
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","urban",0.9441534983092111,0.9330425540249182,0.9552644425935041
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","rural",0.9531475940191291,0.9446720471810086,0.9616231408572495
+"Sub-Saharan Africa","Middle Africa","Angola","2015","urban",0.949107143703718,0.9386421454483315,0.9595721419591045
+"Sub-Saharan Africa","Middle Africa","Angola","2015","rural",0.8005807905617763,0.7685252641056811,0.8326363170178716
+"Sub-Saharan Africa","Middle Africa","Chad","2014","urban",0.8842335215939369,0.8482294161774797,0.920237627010394
+"Sub-Saharan Africa","Middle Africa","Chad","2014","rural",0.7969963498816748,0.7665214717752274,0.8274712279881221
+"Sub-Saharan Africa","Middle Africa","Congo","2011","urban",0.9961311259894303,0.9937911162131469,0.9984711357657138
+"Sub-Saharan Africa","Middle Africa","Congo","2011","rural",0.9928572714236301,0.9899399813449228,0.9957745615023375
+"Sub-Saharan Africa","Middle Africa","Congo Democratic Republic","2013","urban",0.9094020263467736,0.8764648278021953,0.9423392248913519
+"Sub-Saharan Africa","Middle Africa","Congo Democratic Republic","2013","rural",0.9308484120424352,0.9025178629993375,0.9591789610855329
+"Sub-Saharan Africa","Middle Africa","Gabon","2012","urban",0.97343885352923,0.9622391538482791,0.9846385532101809
+"Sub-Saharan Africa","Middle Africa","Gabon","2012","rural",0.9870499756607372,0.9813254836115605,0.9927744677099138
+"Sub-Saharan Africa","Southern Africa","Lesotho","2014","urban",0.9715820206528077,0.961334478598201,0.9818295627074145
+"Sub-Saharan Africa","Southern Africa","Lesotho","2014","rural",0.9106670763970088,0.896895869590369,0.9244382832036486
+"Sub-Saharan Africa","Southern Africa","Namibia","2013","urban",0.9017957967019142,0.8854084112885492,0.9181831821152793
+"Sub-Saharan Africa","Southern Africa","Namibia","2013","rural",0.6217335906507261,0.592576206081745,0.6508909752197072
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","urban",0.984941054669293,0.9771795928845809,0.9927025164540052
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","rural",0.9643213596348899,0.949286447133932,0.9793562721358477
+"Sub-Saharan Africa","Western Africa","Benin","2017","urban",0.8829385644695982,0.8677540331750582,0.8981230957641382
+"Sub-Saharan Africa","Western Africa","Benin","2017","rural",0.9059969663182788,0.8922619351271648,0.9197319975093927
+"Sub-Saharan Africa","Western Africa","Burkina Faso","2010","urban",0.9763794737144407,0.9675067622658519,0.9852521851630295
+"Sub-Saharan Africa","Western Africa","Burkina Faso","2010","rural",0.9538073379177788,0.9420058874339149,0.9656087884016428
+"Sub-Saharan Africa","Western Africa","Cote d'Ivoire","2012","urban",0.9478581549516625,0.9304212891419759,0.9652950207613491
+"Sub-Saharan Africa","Western Africa","Cote d'Ivoire","2012","rural",0.8899096672587173,0.8593587131594701,0.9204606213579646
+"Sub-Saharan Africa","Western Africa","Gambia","2019","urban",0.814011389550596,0.7785531064266445,0.8494696726745475
+"Sub-Saharan Africa","Western Africa","Gambia","2019","rural",0.6452917764716776,0.5839530894654834,0.7066304634778717
+"Sub-Saharan Africa","Western Africa","Ghana","2014","urban",0.7192879680245758,0.6840825012799687,0.754493434769183
+"Sub-Saharan Africa","Western Africa","Ghana","2014","rural",0.5819947231840975,0.5392721403410841,0.624717306027111
+"Sub-Saharan Africa","Western Africa","Guinea","2018","urban",0.4477305594014086,0.3833365558860551,0.5121245629167621
+"Sub-Saharan Africa","Western Africa","Guinea","2018","rural",0.6046645654703885,0.5539201550740727,0.6554089758667043
+"Sub-Saharan Africa","Western Africa","Liberia","2019","urban",0.9826331054946598,0.9750898470481612,0.9901763639411584
+"Sub-Saharan Africa","Western Africa","Liberia","2019","rural",0.9869006317107053,0.9823393942154623,0.9914618692059483
+"Sub-Saharan Africa","Western Africa","Mali","2018","urban",0.9026140887174116,0.8580834242163476,0.9471447532184755
+"Sub-Saharan Africa","Western Africa","Mali","2018","rural",0.8911143735370408,0.8632927549487202,0.9189359921253615
+"Sub-Saharan Africa","Western Africa","Niger","2012","urban",0.6546237587253145,0.6107223730612409,0.6985251443893882
+"Sub-Saharan Africa","Western Africa","Niger","2012","rural",0.5712060760525112,0.5377341994434438,0.6046779526615785
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","urban",0.9842109887138885,0.9783302370034618,0.9900917404243151
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","rural",0.9586848708700231,0.949567283136769,0.9678024586032772
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","urban",0.9278382514042872,0.9051524671472204,0.950524035661354
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","rural",0.8764527007238508,0.8526366611410908,0.9002687403066109
+"Sub-Saharan Africa","Western Africa","Togo","2013","urban",0.8181724339777451,0.7959146457225144,0.8404302222329758
+"Sub-Saharan Africa","Western Africa","Togo","2013","rural",0.8073241823384517,0.7827048441879962,0.8319435204889072
+NA,"Western Africa","Mauritania","2020","urban",0.25265017465931783,0.23173679307224387,0.2735635562463918
+NA,"Western Africa","Mauritania","2020","rural",0.17959141537434212,0.16236631996791698,0.19681651078076726

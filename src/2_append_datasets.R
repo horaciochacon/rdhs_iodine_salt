@@ -7,7 +7,7 @@ source("src/1_get_datasets.R")
 
 # Specify variables to include in the analysis
 vars <- c("hv001", "hv022", "hv024", "hv005", "hv025", "hv270",
-          "hv021","hv106_01", "hv101_01", "hv234a", "hv234" )
+          "hv021","hv106_01", "hv101_01", "hv234a")
 
 # Get variables from prior variable specification vector
 variables <- search_variables(datasets$FileName, variables = vars) 
@@ -17,7 +17,8 @@ variables_spread <- variables %>%
   spread(variable, variable)
 
 countries_complete <- variables_spread %>% 
-  filter(!is.na(hv234a)) %>% pull(dataset_filename)
+  na.omit() %>% 
+  pull(dataset_filename)
 
 # We generate the extract list with all datasets
 extract <- extract_dhs(questions = variables, add_geo = FALSE)

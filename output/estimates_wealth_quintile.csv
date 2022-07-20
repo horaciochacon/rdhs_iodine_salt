@@ -4,118 +4,203 @@
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","middle",1,1,1
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","richer",1,1,1
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","richest",1,1,1
-"East Asia & Pacific","Southeast Asia","Myanmar","2016","poorest",0.6625038321399791,0.6135917464665337,0.7114159178134245
-"East Asia & Pacific","Southeast Asia","Myanmar","2016","poorer",0.7996907702161979,0.7680284831088624,0.8313530573235335
-"East Asia & Pacific","Southeast Asia","Myanmar","2016","middle",0.8471766241600767,0.8209373386881741,0.8734159096319792
-"East Asia & Pacific","Southeast Asia","Myanmar","2016","richer",0.8721337840300097,0.8480568481502149,0.8962107199098046
-"East Asia & Pacific","Southeast Asia","Myanmar","2016","richest",0.9324170083141485,0.9151250822814834,0.9497089343468137
-"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","poorest",0.8278664960799467,0.7932645070081605,0.8624684851517328
-"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","poorer",0.8421221031122296,0.8110421179389316,0.8732020882855276
-"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","middle",0.8279540232822009,0.792817127115729,0.8630909194486728
-"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","richer",0.8629660629663785,0.8345293356358982,0.8914027902968588
-"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","richest",0.8768267592980241,0.8386497347534394,0.9150037838426088
-"Europe & Central Asia","Central Asia","Tajikistan","2017","poorest",0.8529400302747324,0.8214382458817407,0.8844418146677241
-"Europe & Central Asia","Central Asia","Tajikistan","2017","poorer",0.8978642845172433,0.8753700629421387,0.9203585060923479
-"Europe & Central Asia","Central Asia","Tajikistan","2017","middle",0.9254257721242372,0.9064390723134991,0.9444124719349752
-"Europe & Central Asia","Central Asia","Tajikistan","2017","richer",0.9299669108943883,0.9127968442877288,0.9471369775010479
-"Europe & Central Asia","Central Asia","Tajikistan","2017","richest",0.9665880001931433,0.9580466985825469,0.9751293018037397
-"Europe & Central Asia","Southern Europe","Albania","2017","poorest",0.5964204673474391,0.5505882999892362,0.6422526347056421
-"Europe & Central Asia","Southern Europe","Albania","2017","poorer",0.6412334662214819,0.6047942606032153,0.6776726718397486
-"Europe & Central Asia","Southern Europe","Albania","2017","middle",0.6930618851137567,0.6593244714148957,0.7267992988126176
-"Europe & Central Asia","Southern Europe","Albania","2017","richer",0.6599769328062487,0.6240673028029448,0.6958865628095526
-"Europe & Central Asia","Southern Europe","Albania","2017","richest",0.6535974376615696,0.5987039617018397,0.7084909136212996
-"Latin America & Caribbean","Caribbean","Haiti","2016","poorest",0.05794992217448587,0.04192143034648811,0.07397841400248363
-"Latin America & Caribbean","Caribbean","Haiti","2016","poorer",0.07380661406441487,0.056266804742069396,0.09134642338676034
-"Latin America & Caribbean","Caribbean","Haiti","2016","middle",0.06806846144444914,0.05136788063624109,0.08476904225265719
-"Latin America & Caribbean","Caribbean","Haiti","2016","richer",0.0803559840660664,0.05986978797386974,0.10084218015826305
-"Latin America & Caribbean","Caribbean","Haiti","2016","richest",0.12662694681044645,0.09955209112448203,0.15370180249641088
-"South Asia","South Asia","Afghanistan","2015","poorest",0.2602638209787196,0.23115410840038478,0.2893735335570544
-"South Asia","South Asia","Afghanistan","2015","poorer",0.421173068818208,0.3872835450201585,0.4550625926162575
-"South Asia","South Asia","Afghanistan","2015","middle",0.561603488780095,0.5113522708820921,0.6118547066780979
-"South Asia","South Asia","Afghanistan","2015","richer",0.7215413063887273,0.6824258604192837,0.7606567523581709
-"South Asia","South Asia","Afghanistan","2015","richest",0.8759007693846634,0.8469394369381522,0.9048621018311747
-"South Asia","South Asia","Nepal","2016","poorest",0.8356892071376307,0.8052377999785176,0.8661406142967438
-"South Asia","South Asia","Nepal","2016","poorer",0.9441112751137444,0.9287663894095683,0.9594561608179204
-"South Asia","South Asia","Nepal","2016","middle",0.9789447057759674,0.9713217673366775,0.9865676442152572
-"South Asia","South Asia","Nepal","2016","richer",0.991509965245993,0.9868214833095346,0.9961984471824514
-"South Asia","South Asia","Nepal","2016","richest",0.9967439900371012,0.9942120448375176,0.9992759352366849
-"Sub-Saharan Africa","Eastern Africa","Burundi","2016","poorest",0.988456974327815,0.9834503841001722,0.9934635645554578
-"Sub-Saharan Africa","Eastern Africa","Burundi","2016","poorer",0.9927487867229445,0.9891445377744338,0.9963530356714553
-"Sub-Saharan Africa","Eastern Africa","Burundi","2016","middle",0.9930386827847301,0.9895005195118036,0.9965768460576565
-"Sub-Saharan Africa","Eastern Africa","Burundi","2016","richer",0.9904130830922988,0.9860499772974367,0.9947761888871609
-"Sub-Saharan Africa","Eastern Africa","Burundi","2016","richest",0.9934591880058071,0.9893352663473797,0.9975831096642346
-"Sub-Saharan Africa","Eastern Africa","Malawi","2015","poorest",0.8587093929861456,0.8382272731026609,0.8791915128696303
-"Sub-Saharan Africa","Eastern Africa","Malawi","2015","poorer",0.8756635428831538,0.8549290606011739,0.8963980251651338
-"Sub-Saharan Africa","Eastern Africa","Malawi","2015","middle",0.8846335546093045,0.8674728075486046,0.9017943016700044
-"Sub-Saharan Africa","Eastern Africa","Malawi","2015","richer",0.9125513846195175,0.8964666439901243,0.9286361252489106
-"Sub-Saharan Africa","Eastern Africa","Malawi","2015","richest",0.9458516052304362,0.9320093784647566,0.9596938319961158
-"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","poorest",0.6919108913258066,0.6500557666786702,0.7337660159729431
-"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","poorer",0.6922364108650934,0.6538415242227943,0.7306312975073924
-"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","middle",0.7692876427916847,0.7353267262585725,0.8032485593247969
-"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","richer",0.8736917954410268,0.8514839851205038,0.8958996057615498
-"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","richest",0.960289824069053,0.9478069506009359,0.9727726975371702
-"Sub-Saharan Africa","Eastern Africa","Uganda","2016","poorest",0.996511925900191,0.9944511200480358,0.9985727317523462
-"Sub-Saharan Africa","Eastern Africa","Uganda","2016","poorer",0.9915225800842019,0.987716046812059,0.9953291133563448
-"Sub-Saharan Africa","Eastern Africa","Uganda","2016","middle",0.9898794946142524,0.9855879734148771,0.9941710158136277
-"Sub-Saharan Africa","Eastern Africa","Uganda","2016","richer",0.994405281815378,0.9915760887608454,0.9972344748699107
-"Sub-Saharan Africa","Eastern Africa","Uganda","2016","richest",0.9970285723284237,0.9951392501258219,0.9989178945310254
-"Sub-Saharan Africa","Eastern Africa","Zambia","2018","poorest",0.6786286582617945,0.6403016016716601,0.716955714851929
-"Sub-Saharan Africa","Eastern Africa","Zambia","2018","poorer",0.6957880074237209,0.6578499262867014,0.7337260885607405
-"Sub-Saharan Africa","Eastern Africa","Zambia","2018","middle",0.6771604636094404,0.6413762856718527,0.7129446415470281
-"Sub-Saharan Africa","Eastern Africa","Zambia","2018","richer",0.527278194916632,0.4580053248552592,0.5965510649780047
-"Sub-Saharan Africa","Eastern Africa","Zambia","2018","richest",0.5499282205764324,0.5072755950833117,0.5925808460695532
-"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","poorest",0.949530799607969,0.9356236719693674,0.9634379272465707
-"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","poorer",0.9596446192554271,0.9477906754677062,0.971498563043148
-"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","middle",0.9483140946545825,0.9286978655677248,0.9679303237414402
-"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","richer",0.9509771426326746,0.9396408061884829,0.9623134790768664
-"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","richest",0.9425711827584893,0.92903869343,0.9561036720869786
-"Sub-Saharan Africa","Middle Africa","Angola","2015","poorest",0.7853132677335907,0.7493303577956969,0.8212961776714844
-"Sub-Saharan Africa","Middle Africa","Angola","2015","poorer",0.8258422115217265,0.7936202595829056,0.8580641634605475
-"Sub-Saharan Africa","Middle Africa","Angola","2015","middle",0.9138476715981643,0.8969606254948865,0.930734717701442
-"Sub-Saharan Africa","Middle Africa","Angola","2015","richer",0.9781881513245005,0.9702430855241222,0.9861332171248789
-"Sub-Saharan Africa","Middle Africa","Angola","2015","richest",0.9837619639398028,0.9740754332052202,0.9934484946743853
-"Sub-Saharan Africa","Southern Africa","South Africa","2016","poorest",0.956103051951372,0.9331514394081244,0.9790546644946196
-"Sub-Saharan Africa","Southern Africa","South Africa","2016","poorer",0.9708142049960932,0.9548484664638741,0.9867799435283122
-"Sub-Saharan Africa","Southern Africa","South Africa","2016","middle",0.9945439693215194,0.9896643135012461,0.9994236251417928
-"Sub-Saharan Africa","Southern Africa","South Africa","2016","richer",0.9959966280122656,0.989616803908401,1.0023764521161302
-"Sub-Saharan Africa","Southern Africa","South Africa","2016","richest",0.9741748285358435,0.9563150947306595,0.9920345623410275
-"Sub-Saharan Africa","Western Africa","Benin","2017","poorest",0.9111451318635142,0.8939333238947205,0.9283569398323079
-"Sub-Saharan Africa","Western Africa","Benin","2017","poorer",0.9196689825169637,0.9039311664783828,0.9354067985555446
-"Sub-Saharan Africa","Western Africa","Benin","2017","middle",0.8997652347217053,0.8813042330353885,0.9182262364080221
-"Sub-Saharan Africa","Western Africa","Benin","2017","richer",0.8839129596828751,0.8686214458017061,0.8992044735640441
-"Sub-Saharan Africa","Western Africa","Benin","2017","richest",0.8723116299138978,0.8539906412175057,0.8906326186102899
-"Sub-Saharan Africa","Western Africa","Gambia","2019","poorest",0.6617934250071381,0.6107227531226718,0.7128640968916045
-"Sub-Saharan Africa","Western Africa","Gambia","2019","poorer",0.6831131688661319,0.6256489633630715,0.7405773743691924
-"Sub-Saharan Africa","Western Africa","Gambia","2019","middle",0.7892406718667145,0.7443972994884077,0.8340840442450214
-"Sub-Saharan Africa","Western Africa","Gambia","2019","richer",0.8394992928234146,0.80594381607866,0.8730547695681693
-"Sub-Saharan Africa","Western Africa","Gambia","2019","richest",0.8713575540670323,0.8366837186444686,0.906031389489596
-"Sub-Saharan Africa","Western Africa","Guinea","2018","poorest",0.6184651227581975,0.5550970508783389,0.6818331946380561
-"Sub-Saharan Africa","Western Africa","Guinea","2018","poorer",0.6108659756641389,0.5545435179456835,0.6671884333825944
-"Sub-Saharan Africa","Western Africa","Guinea","2018","middle",0.6236581086113343,0.5675718776942703,0.6797443395283983
-"Sub-Saharan Africa","Western Africa","Guinea","2018","richer",0.5002847793958809,0.43954323373370263,0.5610263250580592
-"Sub-Saharan Africa","Western Africa","Guinea","2018","richest",0.3913634428156204,0.32654792655769116,0.45617895907354966
-"Sub-Saharan Africa","Western Africa","Liberia","2019","poorest",0.9825104129706367,0.9746347055984079,0.9903861203428654
-"Sub-Saharan Africa","Western Africa","Liberia","2019","poorer",0.9893169822398118,0.9842796628058483,0.9943543016737753
-"Sub-Saharan Africa","Western Africa","Liberia","2019","middle",0.9819214083553078,0.9693194519469597,0.994523364763656
-"Sub-Saharan Africa","Western Africa","Liberia","2019","richer",0.9883411749091005,0.9809532319251505,0.9957291178930504
-"Sub-Saharan Africa","Western Africa","Liberia","2019","richest",0.9808641724845133,0.9675725003525846,0.994155844616442
-"Sub-Saharan Africa","Western Africa","Mali","2018","poorest",0.8624431012491642,0.8104419834234737,0.9144442190748547
-"Sub-Saharan Africa","Western Africa","Mali","2018","poorer",0.8727085670814627,0.8371318977605119,0.9082852364024135
-"Sub-Saharan Africa","Western Africa","Mali","2018","middle",0.9065329754135417,0.8785116408797992,0.9345543099472843
-"Sub-Saharan Africa","Western Africa","Mali","2018","richer",0.8925250000607693,0.857069090429592,0.9279809096919466
-"Sub-Saharan Africa","Western Africa","Mali","2018","richest",0.9352235735035859,0.9041164191184794,0.9663307278886923
-"Sub-Saharan Africa","Western Africa","Nigeria","2018","poorest",0.9389010861179762,0.9230137930200657,0.9547883792158867
-"Sub-Saharan Africa","Western Africa","Nigeria","2018","poorer",0.9516103929421996,0.936530750020993,0.9666900358634063
-"Sub-Saharan Africa","Western Africa","Nigeria","2018","middle",0.9794025710564276,0.9727656971898642,0.986039444922991
-"Sub-Saharan Africa","Western Africa","Nigeria","2018","richer",0.986034948888498,0.9821675688747667,0.9899023289022292
-"Sub-Saharan Africa","Western Africa","Nigeria","2018","richest",0.988085234992382,0.978771438446881,0.997399031537883
-"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","poorest",0.8847886599297237,0.8578707302165522,0.9117065896428951
-"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","poorer",0.8679414387430845,0.8392481080184604,0.8966347694677086
-"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","middle",0.8721804956556487,0.842409911234986,0.9019510800763114
-"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","richer",0.9211474410367577,0.8984416462505425,0.943853235822973
-"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","richest",0.9409627953185788,0.9110285695248223,0.9708970211123354
-NA,"Western Africa","Mauritania","2020","poorest",0.1533220997413271,0.12786390057108746,0.17878029891156674
-NA,"Western Africa","Mauritania","2020","poorer",0.16637931158962024,0.14223504373356863,0.19052357944567186
-NA,"Western Africa","Mauritania","2020","middle",0.19780721494643444,0.1763959598919895,0.21921847000087938
-NA,"Western Africa","Mauritania","2020","richer",0.2419450428811837,0.21392629879253386,0.2699637869698336
-NA,"Western Africa","Mauritania","2020","richest",0.3039589672761744,0.27311874901128136,0.3347991855410674
+"East Asia & Pacific","Southeast Asia","Cambodia","2014","poorest",0.5903225000127306,0.5396371205042015,0.6410078795212596
+"East Asia & Pacific","Southeast Asia","Cambodia","2014","poorer",0.6355663337499351,0.5969942538473999,0.6741384136524703
+"East Asia & Pacific","Southeast Asia","Cambodia","2014","middle",0.6727400944515216,0.6314003757984816,0.7140798131045616
+"East Asia & Pacific","Southeast Asia","Cambodia","2014","richer",0.739784696552076,0.7029777143623043,0.7765916787418478
+"East Asia & Pacific","Southeast Asia","Cambodia","2014","richest",0.8159678072673783,0.7839939373731708,0.8479416771615857
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","poorest",0.6625038321399791,0.6134075315820057,0.7116001326979525
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","poorer",0.7996907702161979,0.7678675490751617,0.8315139913572341
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","middle",0.8471766241600767,0.8208336141666484,0.873519634153505
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","richer",0.8721337840300097,0.8479852652066207,0.8962823028533988
+"East Asia & Pacific","Southeast Asia","Myanmar","2016","richest",0.9324170083141485,0.915081115700293,0.949752900928004
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","poorest",0.8278664960799467,0.7931879014875072,0.8625450906723862
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","poorer",0.8421221031122296,0.8109132755078385,0.8733309307166206
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","middle",0.8279540232822009,0.7926745382614301,0.8632335083029717
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","richer",0.8629660629663785,0.834463647729946,0.8914684782028109
+"East Asia & Pacific","Southeast Asia","Timor-Leste","2016","richest",0.8768267592980241,0.8386414964511246,0.9150120221449236
+"Europe & Central Asia","Central Asia","Kyrgyz Republic","2012","poorest",0.9505896463580904,0.933785993053765,0.9673932996624158
+"Europe & Central Asia","Central Asia","Kyrgyz Republic","2012","poorer",0.9550308568173864,0.9390302553636154,0.9710314582711574
+"Europe & Central Asia","Central Asia","Kyrgyz Republic","2012","middle",0.9608606341974512,0.9482991890911865,0.9734220793037158
+"Europe & Central Asia","Central Asia","Kyrgyz Republic","2012","richer",0.9749013413173079,0.9658794195790478,0.983923263055568
+"Europe & Central Asia","Central Asia","Kyrgyz Republic","2012","richest",0.9786133287304144,0.9697502463599227,0.9874764111009061
+"Europe & Central Asia","Central Asia","Tajikistan","2017","poorest",0.8529400302747324,0.8214103405949224,0.8844697199545425
+"Europe & Central Asia","Central Asia","Tajikistan","2017","poorer",0.8978642845172433,0.8753130915285828,0.9204154775059038
+"Europe & Central Asia","Central Asia","Tajikistan","2017","middle",0.9254257721242372,0.906413802437555,0.9444377418109193
+"Europe & Central Asia","Central Asia","Tajikistan","2017","richer",0.9299669108943883,0.9127222358988993,0.9472115858898773
+"Europe & Central Asia","Central Asia","Tajikistan","2017","richest",0.9665880001931433,0.9580332821313787,0.9751427182549078
+"Europe & Central Asia","Southern Europe","Albania","2017","poorest",0.5964204673474391,0.5505022063597106,0.6423387283351677
+"Europe & Central Asia","Southern Europe","Albania","2017","poorer",0.6412334662214819,0.6047304384308058,0.6777364940121581
+"Europe & Central Asia","Southern Europe","Albania","2017","middle",0.6930618851137567,0.6591927701358218,0.7269310000916915
+"Europe & Central Asia","Southern Europe","Albania","2017","richer",0.6599769328062487,0.6238904968275903,0.696063368784907
+"Europe & Central Asia","Southern Europe","Albania","2017","richest",0.6535974376615696,0.5986678552069312,0.708527020116208
+"Latin America & Caribbean","Caribbean","Haiti","2016","poorest",0.05794992217448587,0.04191768931941194,0.07398215502955979
+"Latin America & Caribbean","Caribbean","Haiti","2016","poorer",0.07380661406441487,0.05627051171127183,0.09134271641755791
+"Latin America & Caribbean","Caribbean","Haiti","2016","middle",0.06806846144444914,0.05137214778414947,0.08476477510474881
+"Latin America & Caribbean","Caribbean","Haiti","2016","richer",0.0803559840660664,0.05987382162693773,0.10083814650519506
+"Latin America & Caribbean","Caribbean","Haiti","2016","richest",0.12662694681044645,0.09956536405786418,0.15368852956302873
+"Middle East & North Africa","North Africa","Egypt","2014","poorest",0.8065361149784637,0.77877551818975,0.8342967117671773
+"Middle East & North Africa","North Africa","Egypt","2014","poorer",0.8501107196393966,0.8285234928973532,0.8716979463814399
+"Middle East & North Africa","North Africa","Egypt","2014","middle",0.9084982927745304,0.8919582666755304,0.9250383188735305
+"Middle East & North Africa","North Africa","Egypt","2014","richer",0.956936232008626,0.9463380889421518,0.9675343750751002
+"Middle East & North Africa","North Africa","Egypt","2014","richest",0.9838119132185154,0.9773151862746248,0.9903086401624059
+"South Asia","South Asia","Afghanistan","2015","poorest",0.2602638209787196,0.23041699943117167,0.2901106425262675
+"South Asia","South Asia","Afghanistan","2015","poorer",0.421173068818208,0.38577994307965546,0.4565661945567605
+"South Asia","South Asia","Afghanistan","2015","middle",0.561603488780095,0.5097262030963333,0.6134807744638567
+"South Asia","South Asia","Afghanistan","2015","richer",0.7215413063887273,0.6816844343503051,0.7613981784271494
+"South Asia","South Asia","Afghanistan","2015","richest",0.8759007693846634,0.8467317409838715,0.9050697977854554
+"South Asia","South Asia","Nepal","2016","poorest",0.8356892071376307,0.8052324054626979,0.8661460088125635
+"South Asia","South Asia","Nepal","2016","poorer",0.9441112751137444,0.9287588265813903,0.9594637236460984
+"South Asia","South Asia","Nepal","2016","middle",0.9789447057759674,0.9713190879816257,0.986570323570309
+"South Asia","South Asia","Nepal","2016","richer",0.991509965245993,0.986819622460013,0.996200308031973
+"South Asia","South Asia","Nepal","2016","richest",0.9967439900371012,0.9942122702464246,0.9992757098277779
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","poorest",0.988456974327815,0.9834506568822579,0.9934632917733721
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","poorer",0.9927487867229445,0.9891458419673353,0.9963517314785537
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","middle",0.9930386827847301,0.9895004664679677,0.9965768991014924
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","richer",0.9904130830922988,0.986049100017029,0.9947770661675687
+"Sub-Saharan Africa","Eastern Africa","Burundi","2016","richest",0.9934591880058071,0.9893343840501196,0.9975839919614946
+"Sub-Saharan Africa","Eastern Africa","Comoros","2012","poorest",0.9696025231711988,0.9542084462088631,0.9849966001335344
+"Sub-Saharan Africa","Eastern Africa","Comoros","2012","poorer",0.9362705208411272,0.9129984191220629,0.9595426225601914
+"Sub-Saharan Africa","Eastern Africa","Comoros","2012","middle",0.8922632490908229,0.8610122281667761,0.9235142700148696
+"Sub-Saharan Africa","Eastern Africa","Comoros","2012","richer",0.8889810054359782,0.8554104829614945,0.922551527910462
+"Sub-Saharan Africa","Eastern Africa","Comoros","2012","richest",0.8687587038076097,0.8345419588027485,0.9029754488124708
+"Sub-Saharan Africa","Eastern Africa","Kenya","2014","poorest",0.9903319984588155,0.9829852815918307,0.9976787153258002
+"Sub-Saharan Africa","Eastern Africa","Kenya","2014","poorer",0.9946204834853226,0.9921700110741523,0.997070955896493
+"Sub-Saharan Africa","Eastern Africa","Kenya","2014","middle",0.9967783245716145,0.9950021385444594,0.9985545105987697
+"Sub-Saharan Africa","Eastern Africa","Kenya","2014","richer",0.9968868836620922,0.9951923479538922,0.9985814193702922
+"Sub-Saharan Africa","Eastern Africa","Kenya","2014","richest",0.9949716134118387,0.9917712637691802,0.9981719630544972
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","poorest",0.8587093929861456,0.8381265015633627,0.8792922844089285
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","poorer",0.8756635428831538,0.8548739353920456,0.8964531503742621
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","middle",0.8846335546093045,0.8674289088072693,0.9018382004113397
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","richer",0.9125513846195175,0.896432319249503,0.928670449989532
+"Sub-Saharan Africa","Eastern Africa","Malawi","2015","richest",0.9458516052304362,0.9319945860036445,0.9597086244572279
+"Sub-Saharan Africa","Eastern Africa","Mozambique","2011","poorest",0.2701202681362103,0.22793784211413828,0.3123026941582824
+"Sub-Saharan Africa","Eastern Africa","Mozambique","2011","poorer",0.3194664792427432,0.28219688260487463,0.35673607588061174
+"Sub-Saharan Africa","Eastern Africa","Mozambique","2011","middle",0.44827725100410803,0.4091941396672448,0.48736036234097124
+"Sub-Saharan Africa","Eastern Africa","Mozambique","2011","richer",0.5862023628493285,0.5501725910845064,0.6222321346141505
+"Sub-Saharan Africa","Eastern Africa","Mozambique","2011","richest",0.6591116677530562,0.6279063291539553,0.6903170063521571
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","poorest",0.6919108913258066,0.6499360473718495,0.7338857352797638
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","poorer",0.6922364108650934,0.6535534938784472,0.7309193278517395
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","middle",0.7692876427916847,0.7351618009148112,0.8034134846685582
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","richer",0.8736917954410268,0.8514424463000394,0.8959411445820142
+"Sub-Saharan Africa","Eastern Africa","Tanzania","2015","richest",0.960289824069053,0.9477862557307679,0.9727933924073382
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","poorest",0.996511925900191,0.9944512663629812,0.9985725854374008
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","poorer",0.9915225800842019,0.9877112285575735,0.9953339316108303
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","middle",0.9898794946142524,0.9855858605562634,0.9941731286722414
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","richer",0.994405281815378,0.9915744954578978,0.9972360681728583
+"Sub-Saharan Africa","Eastern Africa","Uganda","2016","richest",0.9970285723284237,0.9951398040733722,0.9989173405834751
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","poorest",0.6786286582617945,0.6402263580017136,0.7170309585218755
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","poorer",0.6957880074237209,0.657762837834511,0.7338131770129309
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","middle",0.6771604636094404,0.641280713320007,0.7130402138988737
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","richer",0.527278194916632,0.4578277941452019,0.596728595688062
+"Sub-Saharan Africa","Eastern Africa","Zambia","2018","richest",0.5499282205764324,0.5071527066706145,0.5927037344822503
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","poorest",0.949530799607969,0.9356268009166474,0.9634347982992907
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","poorer",0.9596446192554271,0.9477918987795537,0.9714973397313005
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","middle",0.9483140946545825,0.9286986203751547,0.9679295689340103
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","richer",0.9509771426326746,0.9396295029941897,0.9623247822711596
+"Sub-Saharan Africa","Eastern Africa","Zimbabwe","2015","richest",0.9425711827584893,0.929046053498025,0.9560963120189535
+"Sub-Saharan Africa","Middle Africa","Angola","2015","poorest",0.7853132677335907,0.7492733849147315,0.8213531505524498
+"Sub-Saharan Africa","Middle Africa","Angola","2015","poorer",0.8258422115217265,0.7935826289995673,0.8581017940438858
+"Sub-Saharan Africa","Middle Africa","Angola","2015","middle",0.9138476715981643,0.8969177460107737,0.9307775971855549
+"Sub-Saharan Africa","Middle Africa","Angola","2015","richer",0.9781881513245005,0.9702271122113596,0.9861491904376415
+"Sub-Saharan Africa","Middle Africa","Angola","2015","richest",0.9837619639398028,0.9740805650151189,0.9934433628644866
+"Sub-Saharan Africa","Middle Africa","Chad","2014","poorest",0.7650612204868446,0.7227135486518202,0.8074088923218689
+"Sub-Saharan Africa","Middle Africa","Chad","2014","poorer",0.7784799061127803,0.7423634942657535,0.814596317959807
+"Sub-Saharan Africa","Middle Africa","Chad","2014","middle",0.8032958393988857,0.7682579473114693,0.8383337314863021
+"Sub-Saharan Africa","Middle Africa","Chad","2014","richer",0.8503327303643139,0.8210544557294637,0.8796110049991641
+"Sub-Saharan Africa","Middle Africa","Chad","2014","richest",0.9030183986421634,0.875864059999263,0.9301727372850638
+"Sub-Saharan Africa","Middle Africa","Congo","2011","poorest",0.9893562316958745,0.984684177110955,0.994028286280794
+"Sub-Saharan Africa","Middle Africa","Congo","2011","poorer",0.996922463572024,0.9940733319911527,0.9997715951528953
+"Sub-Saharan Africa","Middle Africa","Congo","2011","middle",0.9947584931849907,0.9898716272720708,0.9996453590979105
+"Sub-Saharan Africa","Middle Africa","Congo","2011","richer",0.9968736720544079,0.9926224884691729,1.001124855639643
+"Sub-Saharan Africa","Middle Africa","Congo","2011","richest",0.9969759928433707,0.9937188979984348,1.0002330876883065
+"Sub-Saharan Africa","Middle Africa","Congo Democratic Republic","2013","poorest",0.923035707508728,0.8952733954745387,0.9507980195429173
+"Sub-Saharan Africa","Middle Africa","Congo Democratic Republic","2013","poorer",0.9261996601561029,0.8918881533227441,0.9605111669894617
+"Sub-Saharan Africa","Middle Africa","Congo Democratic Republic","2013","middle",0.9292623240427262,0.9033365770316117,0.9551880710538407
+"Sub-Saharan Africa","Middle Africa","Congo Democratic Republic","2013","richer",0.9304740400384646,0.905108820099604,0.9558392599773251
+"Sub-Saharan Africa","Middle Africa","Congo Democratic Republic","2013","richest",0.9110788393515927,0.8656387599050374,0.9565189187981481
+"Sub-Saharan Africa","Middle Africa","Gabon","2012","poorest",0.9876553699274939,0.9826611835826408,0.9926495562723471
+"Sub-Saharan Africa","Middle Africa","Gabon","2012","poorer",0.9689971603842708,0.9509839159260816,0.9870104048424599
+"Sub-Saharan Africa","Middle Africa","Gabon","2012","middle",0.9788554940460458,0.9667810228151656,0.9909299652769259
+"Sub-Saharan Africa","Middle Africa","Gabon","2012","richer",0.9621642430508868,0.9426487122566262,0.9816797738451474
+"Sub-Saharan Africa","Middle Africa","Gabon","2012","richest",0.9814095706878304,0.9704053022733704,0.9924138391022904
+"Sub-Saharan Africa","Southern Africa","Lesotho","2014","poorest",0.8392266547151084,0.8116714798350615,0.8667818295951553
+"Sub-Saharan Africa","Southern Africa","Lesotho","2014","poorer",0.9055565715590653,0.8829925272241101,0.9281206158940205
+"Sub-Saharan Africa","Southern Africa","Lesotho","2014","middle",0.9362225993633595,0.9196508500301491,0.9527943486965699
+"Sub-Saharan Africa","Southern Africa","Lesotho","2014","richer",0.971288158043684,0.9610406791981163,0.9815356368892516
+"Sub-Saharan Africa","Southern Africa","Lesotho","2014","richest",0.9764645154705137,0.9665328887508585,0.9863961421901689
+"Sub-Saharan Africa","Southern Africa","Namibia","2013","poorest",0.5837332742858052,0.5411879349166869,0.6262786136549235
+"Sub-Saharan Africa","Southern Africa","Namibia","2013","poorer",0.6483200215043855,0.6113637690949019,0.6852762739138691
+"Sub-Saharan Africa","Southern Africa","Namibia","2013","middle",0.7063099833725207,0.6712131164311137,0.7414068503139277
+"Sub-Saharan Africa","Southern Africa","Namibia","2013","richer",0.882540345023882,0.8615282061140993,0.9035524839336647
+"Sub-Saharan Africa","Southern Africa","Namibia","2013","richest",0.9607834708771165,0.9517478520037954,0.9698190897504375
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","poorest",0.956103051951372,0.9331479237389023,0.9790581801638417
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","poorer",0.9708142049960932,0.9548484244781786,0.9867799855140077
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","middle",0.9945439693215194,0.9896646924631235,0.9994232461799154
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","richer",0.9959966280122656,0.9896173016509026,1.0023759543736288
+"Sub-Saharan Africa","Southern Africa","South Africa","2016","richest",0.9741748285358435,0.9563234383693952,0.9920262187022918
+"Sub-Saharan Africa","Western Africa","Benin","2017","poorest",0.9111451318635142,0.8939052347799553,0.9283850289470731
+"Sub-Saharan Africa","Western Africa","Benin","2017","poorer",0.9196689825169637,0.9039096192602905,0.935428345773637
+"Sub-Saharan Africa","Western Africa","Benin","2017","middle",0.8997652347217053,0.8812831046954811,0.9182473647479296
+"Sub-Saharan Africa","Western Africa","Benin","2017","richer",0.8839129596828751,0.8686123879176053,0.8992135314481449
+"Sub-Saharan Africa","Western Africa","Benin","2017","richest",0.8723116299138978,0.8539858659320735,0.890637393895722
+"Sub-Saharan Africa","Western Africa","Burkina Faso","2010","poorest",0.9333140202699123,0.9093377945936522,0.9572902459461724
+"Sub-Saharan Africa","Western Africa","Burkina Faso","2010","poorer",0.954413307077518,0.9401949178994006,0.9686316962556355
+"Sub-Saharan Africa","Western Africa","Burkina Faso","2010","middle",0.9612554045431143,0.9500611779914593,0.9724496310947693
+"Sub-Saharan Africa","Western Africa","Burkina Faso","2010","richer",0.9637967798321722,0.9519504660685256,0.9756430935958187
+"Sub-Saharan Africa","Western Africa","Burkina Faso","2010","richest",0.9819677905129001,0.9747252953620098,0.9892102856637903
+"Sub-Saharan Africa","Western Africa","Cote d'Ivoire","2012","poorest",0.8799110120904872,0.8407071581667614,0.9191148660142129
+"Sub-Saharan Africa","Western Africa","Cote d'Ivoire","2012","poorer",0.8889122362098529,0.8519178689440802,0.9259066034756257
+"Sub-Saharan Africa","Western Africa","Cote d'Ivoire","2012","middle",0.9081408891479369,0.8775076450113629,0.9387741332845109
+"Sub-Saharan Africa","Western Africa","Cote d'Ivoire","2012","richer",0.9428260634762432,0.9202418724241932,0.9654102545282932
+"Sub-Saharan Africa","Western Africa","Cote d'Ivoire","2012","richest",0.9636411491145027,0.9528385730320021,0.9744437251970033
+"Sub-Saharan Africa","Western Africa","Gambia","2019","poorest",0.6617934250071381,0.6106542976712355,0.7129325523430408
+"Sub-Saharan Africa","Western Africa","Gambia","2019","poorer",0.6831131688661319,0.6256173452863917,0.7406089924458722
+"Sub-Saharan Africa","Western Africa","Gambia","2019","middle",0.7892406718667145,0.7443839470959093,0.8340973966375198
+"Sub-Saharan Africa","Western Africa","Gambia","2019","richer",0.8394992928234146,0.805921225356331,0.8730773602904982
+"Sub-Saharan Africa","Western Africa","Gambia","2019","richest",0.8713575540670323,0.8366336552736104,0.9060814528604542
+"Sub-Saharan Africa","Western Africa","Ghana","2014","poorest",0.5350637698363161,0.477153932743664,0.5929736069289682
+"Sub-Saharan Africa","Western Africa","Ghana","2014","poorer",0.5161991197518967,0.4697146175864904,0.5626836219173029
+"Sub-Saharan Africa","Western Africa","Ghana","2014","middle",0.598226736805604,0.5593923621586455,0.6370611114525625
+"Sub-Saharan Africa","Western Africa","Ghana","2014","richer",0.7215145013164233,0.6845841297676221,0.7584448728652244
+"Sub-Saharan Africa","Western Africa","Ghana","2014","richest",0.8395073754910242,0.8042156226552777,0.8747991283267706
+"Sub-Saharan Africa","Western Africa","Guinea","2018","poorest",0.6184651227581975,0.5550714579695009,0.6818587875468942
+"Sub-Saharan Africa","Western Africa","Guinea","2018","poorer",0.6108659756641389,0.5544973395762213,0.6672346117520566
+"Sub-Saharan Africa","Western Africa","Guinea","2018","middle",0.6236581086113343,0.5675336640092332,0.6797825532134354
+"Sub-Saharan Africa","Western Africa","Guinea","2018","richer",0.5002847793958809,0.4394622391981917,0.5611073195935701
+"Sub-Saharan Africa","Western Africa","Guinea","2018","richest",0.3913634428156204,0.3265102010898117,0.4562166845414291
+"Sub-Saharan Africa","Western Africa","Liberia","2019","poorest",0.9825104129706367,0.9746344422275761,0.9903863837136972
+"Sub-Saharan Africa","Western Africa","Liberia","2019","poorer",0.9893169822398118,0.9842805068577604,0.9943534576218632
+"Sub-Saharan Africa","Western Africa","Liberia","2019","middle",0.9819214083553078,0.9693230497522465,0.9945197669583692
+"Sub-Saharan Africa","Western Africa","Liberia","2019","richer",0.9883411749091005,0.9809559813889095,0.9957263684292914
+"Sub-Saharan Africa","Western Africa","Liberia","2019","richest",0.9808641724845133,0.9675793762489615,0.9941489687200651
+"Sub-Saharan Africa","Western Africa","Mali","2018","poorest",0.8624431012491642,0.8103597342178127,0.9145264682805158
+"Sub-Saharan Africa","Western Africa","Mali","2018","poorer",0.8727085670814627,0.8369697823342677,0.9084473518286578
+"Sub-Saharan Africa","Western Africa","Mali","2018","middle",0.9065329754135417,0.8783744794545317,0.9346914713725517
+"Sub-Saharan Africa","Western Africa","Mali","2018","richer",0.8925250000607693,0.8570438275545336,0.928006172567005
+"Sub-Saharan Africa","Western Africa","Mali","2018","richest",0.9352235735035859,0.9041283062973962,0.9663188407097756
+"Sub-Saharan Africa","Western Africa","Niger","2012","poorest",0.5097176164422803,0.465997816848568,0.5534374160359926
+"Sub-Saharan Africa","Western Africa","Niger","2012","poorer",0.5758380109269612,0.5313454497918119,0.6203305720621105
+"Sub-Saharan Africa","Western Africa","Niger","2012","middle",0.592968796823299,0.5456557229875846,0.6402818706590133
+"Sub-Saharan Africa","Western Africa","Niger","2012","richer",0.5899100258499906,0.5471088065186115,0.6327112451813698
+"Sub-Saharan Africa","Western Africa","Niger","2012","richest",0.6598338317829332,0.6224229390892415,0.6972447244766249
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","poorest",0.9389010861179762,0.9225377132416099,0.9552644589943424
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","poorer",0.9516103929421996,0.9364187861431137,0.9668019997412856
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","middle",0.9794025710564276,0.972742547844034,0.9860625942688211
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","richer",0.986034948888498,0.9821014016280132,0.9899684961489827
+"Sub-Saharan Africa","Western Africa","Nigeria","2018","richest",0.988085234992382,0.9787618799879141,0.9974085899968499
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","poorest",0.8847886599297237,0.8578067636707111,0.9117705561887363
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","poorer",0.8679414387430845,0.8391341262968793,0.8967487511892897
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","middle",0.8721804956556487,0.8422920552708826,0.9020689360404148
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","richer",0.9211474410367577,0.8983833368103172,0.9439115452631982
+"Sub-Saharan Africa","Western Africa","Sierra Leone","2019","richest",0.9409627953185788,0.9110428207359504,0.9708827699012073
+"Sub-Saharan Africa","Western Africa","Togo","2013","poorest",0.8145874017001635,0.7819904950931712,0.8471843083071559
+"Sub-Saharan Africa","Western Africa","Togo","2013","poorer",0.8182991135485652,0.7877969301938891,0.8488012969032414
+"Sub-Saharan Africa","Western Africa","Togo","2013","middle",0.7943573690227186,0.7610503825528893,0.8276643554925479
+"Sub-Saharan Africa","Western Africa","Togo","2013","richer",0.8216153313549392,0.7947649940651,0.8484656686447785
+"Sub-Saharan Africa","Western Africa","Togo","2013","richest",0.8130906155341943,0.7860930162875563,0.8400882147808322
+NA,"Western Africa","Mauritania","2020","poorest",0.1533220997413271,0.1277339477786901,0.1789102517039641
+NA,"Western Africa","Mauritania","2020","poorer",0.16637931158962024,0.14212705772652112,0.19063156545271936
+NA,"Western Africa","Mauritania","2020","middle",0.19780721494643444,0.1763881161259079,0.21922631376696097
+NA,"Western Africa","Mauritania","2020","richer",0.2419450428811837,0.21385729009039992,0.2700327956719675
+NA,"Western Africa","Mauritania","2020","richest",0.3039589672761744,0.2729161596638265,0.3350017748885223

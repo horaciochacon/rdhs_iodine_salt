@@ -90,4 +90,4 @@ panel_plot <- grid.arrange(
                         rep(3, 5), rep(3, 5))
 )
 
-ggsave("plots/panel_plot.png", panel_plot, scale = 1.5, dpi = 300)
+ggsave("plots/panel_plot.png", panel_plot, scale = 2, dpi = 700)

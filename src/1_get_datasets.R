@@ -5,7 +5,6 @@ library(tidyverse)
 project <- "Global trends, prevalence and determinants of non-institutional deliveries:Evidence from DHS surveys"
 source("src/0_functions.R")
 country_list <- read_csv("input/country_list.csv")
-Sys.setenv('R_MAX_VSIZE'=32000000000)
 
 ## Set up your credentials
 set_rdhs_config(
@@ -23,7 +22,7 @@ datasets <- dhs_datasets(
   surveyIds = surveys$SurveyId,
   fileFormat = "FLAT",
   fileType = "HR",
-  surveyYearStart = 2015
+  surveyYearStart = 2000
 ) %>% 
   filter(DHS_CountryCode != "IA")
 
