@@ -1,0 +1,9 @@
+rdhs:
+  project: 'Global trends, prevalence and determinants of non-institutional deliveries:Evidence from DHS surveys'
+  email: 'horacio.chacon.t@upch.pe'
+  cache_path: 'data/'
+  surveys:
+    fileformat: 'FLAT'
+    filetype: 'HR'
+    YearStart: 2000
+variables: ['hv001', 'hv022', 'hv024', 'hv005', 'hv025', 'hv270','hv021','hv106_01', 'hv101_01', 'hv234a', 'hv234']

@@ -12,7 +12,7 @@ design <- final %>%
 # Calculate estimates of iodine prevalence per country
 estimates_countries <- design %>% 
   group_by(RegionWorldBank, SubregionName, CountryName, SurveyYear) %>% 
-  summarise(prop_iod = survey_mean(iodine,vartype = "ci"))
+  summarise(prop_iod = survey_mean(iodine,vartype = "ci"), multicore = TRUE)
 
 write_excel_csv(estimates_countries,"output/estimates_countries.csv")
 
@@ -39,7 +39,7 @@ write_excel_csv(estimates_countries,"output/estimates_countries.csv")
 # Calculate estimates of home delivery prevalence per country per Wealth Quintile
 estimates_wealth_quintile <- design %>% 
   group_by(RegionWorldBank, SubregionName, CountryName, SurveyYear, hv270)%>% 
-  summarise(prop_iod = survey_mean(iodine,vartype = "ci")) %>% 
+  summarise(prop_iod = survey_mean(iodine,vartype = "ci"), multicore = TRUE) %>% 
   mutate(hv270 = as_character(hv270)) %>% 
   rename(Wealth_Quintile = hv270) 
 

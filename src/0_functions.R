@@ -61,7 +61,7 @@ plot_dumbbell <- function(data, var, var_label, legend_label){
       size = 2
     ) +
     scale_fill_brewer(palette = "Set1", direction = -1) +
-    scale_y_continuous(labels = percent) +
+    scale_y_continuous(labels = percent, trans = "exp") +
     scale_shape_manual(values = c(21,23)) +
     theme_bw() +
     theme(legend.justification = c(1,0),

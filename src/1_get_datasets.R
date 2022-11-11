@@ -2,15 +2,15 @@ library(rdhs)
 library(tidyverse)
 
 # Setup
-project <- "Global trends, prevalence and determinants of non-institutional deliveries:Evidence from DHS surveys"
+config <- yaml::read_yaml('config.yaml', readLines.warn = FALSE)
+project <- config$rdhs$project
 source("src/0_functions.R")
-country_list <- read_csv("input/country_list.csv")
 
 ## Set up your credentials
 set_rdhs_config(
   project = project,
-  email = "horacio.chacon.t@upch.pe",
-  cache_path = "data/",
+  email = config$rdhs$email,
+  cache_path = config$rdhs$cache_path,
   verbose_download = TRUE
 )
 
@@ -20,34 +20,14 @@ surveys <- get_last_survey()
 # Get datasets
 datasets <- dhs_datasets(
   surveyIds = surveys$SurveyId,
-  fileFormat = "FLAT",
-  fileType = "HR",
-  surveyYearStart = 2000
-) %>% 
-  filter(DHS_CountryCode != "IA")
+  fileFormat = config$rdhs$surveys$fileformat,
+  fileType = config$rdhs$surveys$filetype,
+  surveyYearStart = config$rdhs$surveys$YearStart
+) 
 
 # Download queried datasets
-dhs_birth_datasets <- get_datasets(datasets$FileName)
+dhs_datasets <- get_datasets(datasets$FileName)
 
-# Process dataset path + Country names
-# birth_datasets <- tibble(SurveyId = names(unlist(dhs_birth_datasets)),
-#                          path = unlist(dhs_birth_datasets)) %>%
-#   mutate(DHS_CountryCode = str_sub(SurveyId,1,2)) %>% 
-#   left_join(surveys[,c(1,3,4)], by = "DHS_CountryCode")
-
-rm(email, project, birth_datasets)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Write list of DHS datasets
+write_rds(datasets, "data/dhs_datasets.rds")
+write_rds(surveys, "data/surveys.rds")
