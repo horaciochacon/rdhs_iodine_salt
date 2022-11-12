@@ -1,4 +1,4 @@
-﻿"RegionWorldBank","SubregionName","CountryName","SurveyYear","Education","prop_iod","prop_iod_low","prop_iod_upp"
+﻿"RegionWorldBank","SubregionName","CountryName","SurveyYear","Education","prop","prop_low","prop_upp"
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","no education, preschool",1.000000000000001,1.0000000000000009,1.0000000000000013
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","primary",0.9999999999999933,0.9999999999999925,0.9999999999999942
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","secondary",0.9999999999999958,0.9999999999999952,0.9999999999999963

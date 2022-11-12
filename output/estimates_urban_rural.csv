@@ -1,4 +1,4 @@
-﻿"RegionWorldBank","SubregionName","CountryName","SurveyYear","Residence","prop_iod","prop_iod_low","prop_iod_upp"
+﻿"RegionWorldBank","SubregionName","CountryName","SurveyYear","Residence","prop","prop_low","prop_upp"
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","urban",1.0000000000000062,1.0000000000000044,1.000000000000008
 "East Asia & Pacific","Pacific Islands","Papua New Guinea","2017","rural",0.999999999999986,0.9999999999999841,0.9999999999999879
 "East Asia & Pacific","Southeast Asia","Cambodia","2014","urban",0.8233930363338576,0.7885662344557064,0.8582198382120089

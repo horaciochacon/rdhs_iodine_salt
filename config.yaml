@@ -7,3 +7,11 @@ rdhs:
     filetype: 'HR'
     YearStart: 2000
 variables: ['hv001', 'hv022', 'hv024', 'hv005', 'hv025', 'hv270','hv021','hv106_01', 'hv101_01', 'hv234a', 'hv234']
+estimates:
+  outcome: 'iodine'
+  group_direct: ['RegionWorldBank', 'SubregionName', 'CountryName', 'SurveyYear']
+  group_wealth: ['RegionWorldBank', 'SubregionName', 'CountryName', 'SurveyYear', 'hv270']
+  group_urb_rur: ['RegionWorldBank', 'SubregionName', 'CountryName', 'SurveyYear', 'hv025']
+  group_edu: ['RegionWorldBank', 'SubregionName', 'CountryName', 'SurveyYear', 'hv106_01']
+  val_edu: ['no education, preschool', 'primary', 'secondary','higher']
+  meta_vars: ['RegionWorldBank', 'SubregionName', 'CountryName', 'SurveyYear', 'num', 'denom', 'prop']

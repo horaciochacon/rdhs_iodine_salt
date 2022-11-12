@@ -13,16 +13,19 @@ country_estimates <- read_csv("output/estimates_countries.csv")
 # Data Cleaning -----------------------------------------------------------
 
 country_estimates <- country_estimates %>%
-  arrange(desc(prop_iod)) %>%
+  arrange(desc(prop)) %>%
   mutate(CountryName = paste0(CountryName, " (", SurveyYear, ")")) %>%
-  select(CountryName, prop_avg = prop_iod)
-
+  select(CountryName, prop_avg = prop)
 
 area <- area %>%
   mutate(CountryName = paste0(CountryName, " (", SurveyYear, ")")) %>%
   left_join(country_estimates) %>%
-  mutate(CountryName = factor(CountryName,
-                              levels = country_estimates$CountryName)) %>% 
+  mutate(
+    CountryName = factor(
+      CountryName,
+      levels = country_estimates$CountryName
+      )
+    ) %>% 
   mutate(Residence = str_to_sentence(Residence))
 
 education <- education %>%
@@ -30,11 +33,13 @@ education <- education %>%
   left_join(country_estimates) %>%
   mutate(Education = str_to_sentence(Education)) %>% 
   mutate(
-    CountryName = factor(CountryName,
-                         levels = country_estimates$CountryName),
+    CountryName = factor(
+      CountryName,
+      levels = country_estimates$CountryName
+      ),
     Education = factor(
       Education,
-      levels = c("No education", "Primary", "Secondary", "Higher")
+      levels = c("No education, preschool", "Primary", "Secondary", "Higher")
     )
   ) %>%
   filter(Education != "missing", !is.na(Education)) 
@@ -44,8 +49,10 @@ wealth <- wealth %>%
   left_join(country_estimates) %>% 
   mutate(Wealth_Quintile = str_to_sentence(Wealth_Quintile)) %>%
   mutate(
-    CountryName = factor(CountryName,
-                         levels = country_estimates$CountryName),
+    CountryName = factor(
+      CountryName,
+      levels = country_estimates$CountryName
+      ),
     Wealth_Quintile = factor(
       Wealth_Quintile,
       levels = c("Poorest", "Poorer", "Middle", "Richer", "Richest")
