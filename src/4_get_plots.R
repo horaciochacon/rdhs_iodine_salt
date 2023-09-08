@@ -1,5 +1,6 @@
 library(tidyverse)
 library(gridExtra)
+library(grid)
 source("src/0_functions.R")
 
 
@@ -24,40 +25,40 @@ area <- area %>%
     CountryName = factor(
       CountryName,
       levels = country_estimates$CountryName
-      )
-    ) %>% 
+    )
+  ) %>%
   mutate(Residence = str_to_sentence(Residence))
 
 education <- education %>%
   mutate(CountryName = paste0(CountryName, " (", SurveyYear, ")")) %>%
   left_join(country_estimates) %>%
-  mutate(Education = str_to_sentence(Education)) %>% 
+  mutate(Education = str_to_sentence(Education)) %>%
   mutate(
     CountryName = factor(
       CountryName,
       levels = country_estimates$CountryName
-      ),
+    ),
     Education = factor(
       Education,
       levels = c("No education, preschool", "Primary", "Secondary", "Higher")
     )
   ) %>%
-  filter(Education != "missing", !is.na(Education)) 
+  filter(Education != "missing", !is.na(Education))
 
 wealth <- wealth %>%
   mutate(CountryName = paste0(CountryName, " (", SurveyYear, ")")) %>%
-  left_join(country_estimates) %>% 
+  left_join(country_estimates) %>%
   mutate(Wealth_Quintile = str_to_sentence(Wealth_Quintile)) %>%
   mutate(
     CountryName = factor(
       CountryName,
       levels = country_estimates$CountryName
-      ),
+    ),
     Wealth_Quintile = factor(
       Wealth_Quintile,
       levels = c("Poorest", "Poorer", "Middle", "Richer", "Richest")
     )
-  ) 
+  )
 
 # Residence Graph ------------------------------------------------------------
 
@@ -65,7 +66,8 @@ graph_residence <- plot_dumbbell(
   data = area,
   var = "Residence",
   var_label = "By Residence Area",
-  legend_label = "Residence Area"
+  legend_label = "Residence Area",
+  remove_y_axis = TRUE
 )
 
 # Education Graph ------------------------------------------------------------
@@ -75,7 +77,8 @@ graph_education <- plot_dumbbell(
   var = "Education",
   var_label = "By Education Level",
   legend_label = "Education Level"
-)
+) +
+  theme(axis.title.y = element_text(size = 14))
 
 # Wealth Quintile Graph -------------------------------------------------------
 
@@ -83,8 +86,10 @@ graph_wealth <- plot_dumbbell(
   data = wealth,
   var = "Wealth_Quintile",
   var_label = "By Wealth Quintile",
-  legend_label = "Wealth Quintile"
-) 
+  legend_label = "Wealth Quintile",
+  remove_y_axis = TRUE
+)
+
 
 # Make composite final Graph -------------------------------------------------
 
@@ -92,9 +97,18 @@ panel_plot <- grid.arrange(
   graph_education,
   graph_wealth,
   graph_residence,
-  layout_matrix = cbind(rep(1, 5), rep(1, 5),
-                        rep(2, 5), rep(2, 5),
-                        rep(3, 5), rep(3, 5))
+  nrow = 1,
+  widths = c(1.5, 1, 1)
 )
 
-ggsave("plots/panel_plot.png", panel_plot, scale = 2, dpi = 700)
+# Add common x-axis label
+panel_plot <- arrangeGrob(
+  panel_plot,
+  bottom = textGrob(
+    "Household Salt Iodine Prevalence (%)",
+    gp = gpar(fontsize = 15),
+    vjust = 0.5
+  )
+)
+
+ggsave("plots/panel_plot.png", panel_plot, scale = 1.5, dpi = 700)

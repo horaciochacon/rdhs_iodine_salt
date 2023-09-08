@@ -37,8 +37,8 @@ bind_dhs_var <- function(var_data,var, desc, data, id) {
 # Dumbbell Plots ------------------------------------------------------
 library(scales)
 
-plot_dumbbell <- function(data, var, var_label, legend_label){
-  ggplot(data) +
+plot_dumbbell <- function(data, var, var_label, legend_label, remove_y_axis = FALSE){
+  p <- ggplot(data) +
     geom_line(
       aes(x = CountryName, y = prop, group = CountryName),
       color = "gray20",
@@ -50,7 +50,7 @@ plot_dumbbell <- function(data, var, var_label, legend_label){
         y = prop, 
         fill = .data[[var]],
         shape = var_label
-        ),
+      ),
       size = 2.5
     ) +
     geom_point(
@@ -78,7 +78,14 @@ plot_dumbbell <- function(data, var, var_label, legend_label){
     guides(
       shape = guide_legend(order = 1),
       fill=guide_legend(override.aes=list(shape=21))
-      )
+    ) + 
+    theme(axis.title.x = element_blank())
+  
+  if (remove_y_axis) {
+    p <- p + theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(), axis.title.y = element_blank())
+  }
+  
+  return(p)
 }
 
 
