@@ -38,7 +38,7 @@ dhs_spatial <- world %>%
 
 dhs_map <- ggplot(dhs_spatial_all) +
   geom_sf(fill = "#eae2b7", alpha = 0.4) +
-  geom_sf(data = dhs_spatial, aes(fill = prop_iod)) +
+  geom_sf(data = dhs_spatial, aes(fill = prop)) +
   scale_fill_distiller(
     palette = "YlOrRd", 
     breaks = 0.25*0:4,
@@ -59,7 +59,7 @@ dhs_map <- ggplot(dhs_spatial_all) +
 
 # Save map ----------------------------------------------------------------
 
-ggsave("plots/map.png", dhs_map, scale = 2, dpi = 300)
+ggsave("plots/map.png", dhs_map, scale = 1.5, dpi = 700)
 
 
 
