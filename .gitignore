@@ -3,6 +3,7 @@
 .Rproj.user
 *.rds
 *.ZIP_rds_FALSE
+config.yaml
 data/db/config/compress
 data/db/config/hash_algorithm
 data/db/config/mangle_key

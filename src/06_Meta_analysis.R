@@ -48,7 +48,7 @@ forest(
   # hetlab = "",
   print.tau2 = FALSE,
   # layout = "RevMan5",
-  col.square = "black",  # Color of squares
+  # col.square = "black",  # Color of squares
   digits = 1,
   digits.I2 = 0,
   digits.tau = 3,
@@ -57,9 +57,9 @@ forest(
   pscale = 100,  # Scale for proportion
   fontsize = 7,  # Font size
   spacing = 0.7,  # Space between lines
-  col.square.lines = "black",  # Color of lines around squares
+  # col.square.lines = "black",  # Color of lines around squares
   sub.group = TRUE,  # Display subgroups
-  squaresize = 3,  # Increase the size of the squares
+  squaresize = 0.8,  # Increase the size of the squares
   leftcols = c("studlab", "event", "n"),
   rightcols = c("ci", "w.random"),
   leftlabs = c("Region/Country", "Events", "Total"),
